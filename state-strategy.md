@@ -1,4 +1,4 @@
 # state and strategy
 
-- state patterns decouples state.
+- state pattern decouples state.
 - strategy pattern decouples behaviour.
