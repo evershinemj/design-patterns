@@ -30,6 +30,15 @@ Encapsulate a request as an object, thereby letting you parameterize clients wit
 命令模式使请求本身成为一个对象，这个对象和其他对象一样可以被存储和传递。
 命令模式的关键在于引入了抽象命令接口，且发送者针对抽象命令接口编程，只有实现了抽象命令接口的具体命令才能与接收者相关联。
 
+# personal notes
+
+- every **repeatable operation** can be encapsulated in a **command**.
+- the **command pattern** makes operations **reusable**.
+- vim macros is a practice of **command pattern**.
+- excel macros is also a practice of **command pattern**.
+- C macros is also a practice of **command pattern**.
+- M-w and C-y in emacs is also a practice of **command pattern**, as they are **repeatable operations**.
+
 # examples
 
 『服務生 (Invoker)』 儲存好『命令 (Command)』並呼叫，
