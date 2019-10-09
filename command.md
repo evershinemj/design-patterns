@@ -3,6 +3,8 @@
 all credits given to Mr. Zheng, from whose blog the major part of the following
 content is derived.
 
+[blog url](https://notfalse.net/4/command-pattern)
+
 # definition
 
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
