@@ -5,6 +5,8 @@ content is derived.
 
 [blog url](https://notfalse.net/4/command-pattern)
 
+[github url](https://github.com/JS-Zheng/blog)
+
 # definition
 
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
