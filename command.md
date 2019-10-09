@@ -12,11 +12,23 @@ content is derived.
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 
 # objects
+
 - Command
 - ConcreteCommand
 - Invoker
 - Receiver
 - Client
+
+# analysis
+
+[analysis url](https://design-patterns.readthedocs.io/zh_CN/latest/behavioral_patterns/command.html)
+
+命令模式的本质是对命令进行封装，将发出命令的责任和执行命令的责任分割开。
+
+每一个命令都是一个操作：请求的一方发出请求，要求执行一个操作；接收的一方收到请求，并执行操作。
+命令模式允许请求的一方和接收的一方独立开来，使得请求的一方不必知道接收请求的一方的接口，更不必知道请求是怎么被接收，以及操作是否被执行、何时被执行，以及是怎么被执行的。
+命令模式使请求本身成为一个对象，这个对象和其他对象一样可以被存储和传递。
+命令模式的关键在于引入了抽象命令接口，且发送者针对抽象命令接口编程，只有实现了抽象命令接口的具体命令才能与接收者相关联。
 
 # examples
 
